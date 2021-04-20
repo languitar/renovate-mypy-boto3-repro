@@ -6,7 +6,7 @@ authors = ["Johannes Wienke <johannes.wienke@plan.one>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-mypy-boto3-kms = "^1.17.54"
+boto3-stubs = {extras = ["s3"], version = "^1.16.39"}
 
 [tool.poetry.dev-dependencies]
 
